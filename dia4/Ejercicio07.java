@@ -5,17 +5,11 @@ import java.util.Scanner;
 
 public class Ejercicio07 {
 	public static void main(String[] args) {
-		
-	
-		//Utilizando HashMap para ingresar país y capital y luego
-		//mostrar por pantalla.
-		
+			
 		Scanner teclado = new Scanner(System.in);
 		
 		HashMap<String,String> paisCapital = new HashMap<String,String>();
 		
-		//Agregamos los países y sus respectivas capitales
-		//Clave=País y Valor=Capital
 		paisCapital.put("España", "Madrid");
 		paisCapital.put("Chile", "Santiago de Chile");
 		paisCapital.put("Francia", "Paris");
